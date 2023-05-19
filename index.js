@@ -2,10 +2,9 @@
 
 import inquirer from 'inquirer';
 import fs  from 'fs'
-//import util from 'utils'
+import util from 'util'
 import generateMarkdown from './utils/generateMarkdown.js';
-const questions = inquirer
-  .prompt([
+const questions = [
     {
         type: 'input',
         name: 'title',
@@ -86,7 +85,7 @@ const questions = inquirer
       type: 'list',
       message: 'Please select a license to add to your Readme File.',
       name: 'license',
-      choices: ['Apache 2.0 License', 'The MIT License', 'Mozilla Public License 2.0'],
+      choices: ['Apache 2.0 License', 'MIT License', 'Mozilla Public License 2.0'],
       validate: function (answer) {
         if (answer.length < 1) {
             return console.log("A license is required to create this Readme File.");
@@ -94,13 +93,13 @@ const questions = inquirer
         return true;
     }
     },
-  ]);
+  ];
 
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
-        if (err) {
+         if (err) {
           return console.log(err);
         }
       
@@ -111,18 +110,13 @@ function writeToFile(fileName, data) {
 const writeFileAsync = util.promisify(writeToFile);
 
 // TODO: Create a function to initialize app
-function init() {
-    try{
-        const answers = inquirer.prompt(questions);
-        console.log("Your answers: ", answers);
-
-        console.log("Generating your README next...")
-
-        const markdown = generateMarkdown(answers);
-        console.log(markdown);
-
-        writeFileAsync('ExampleREADME.md', markdown);
-    } 
+async function init() {
+    try {
+    const answers = await (inquirer.prompt(questions));
+    const markdown = generateMarkdown(answers);
+    console.log(markdown);
+    writeFileAsync('TestREADME.md', markdown);
+    }
     catch (error) {
     console.log(error);
     }
