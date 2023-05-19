@@ -35,7 +35,7 @@ Used Inquirer to generate prompts and answer selections
 Generated table of contents with links to corresponding sections of the readme file
 
 ## Video Demonstration
-![End to End](./artifacts/ReadmeGeneratorDemo.mov)
+![End to End](./artifacts/ReadmeGeneratorDemo.webm.mov)
 
 ## Referenced Information
 https://plainenglish.io/blog/how-to-use-import-instead-of-require-statements-in-a-node-app-short
