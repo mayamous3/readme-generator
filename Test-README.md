@@ -1,10 +1,10 @@
 
   
   ![License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
-  https://opensource.org/licenses/MIT
+
   ---
 
-  # test
+  # Amanda's Project
 
 
   ---
@@ -22,33 +22,33 @@
  
   ## Description
  
- a
+ Amanda tries some new coding.
 
  ---
 
   ## Installation
-    a
+    Amanda installs the code and of course its a smooth process
 
   ---
   ## Usage
-    a
+    Amanda gives usage instructions
 
   ---
   ## Testing
-    a
+    Amanda tested extensively
 
   ---
   ## Contributors
-    a
+    Amanda collaborates with her dogs Cooper and Luna
 
   ---
   ## Contact
   Please contact me directly via e-mail or look me up on github!
-  * Github Username:a
-  * E-mail Address:  a
+  * Github Username: https://github.com/mayamous3
+  * E-mail Address:  Amanda installs the code and of course its a smooth process
   
   ---
   ## License
-  undefined
+  https://opensource.org/licenses/MIT
 
   

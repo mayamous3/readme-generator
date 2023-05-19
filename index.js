@@ -114,7 +114,7 @@ async function init() {
     const answers = await (inquirer.prompt(questions));
     const markdown = generateMarkdown(answers);
     console.log(markdown);
-    writeFileAsync('TestREADME.md', markdown);
+    writeFileAsync('Test-README.md', markdown);
     }
     catch (error) {
     console.log(error);
