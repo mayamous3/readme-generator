@@ -36,3 +36,7 @@ Generated table of contents with links to corresponding sections of the readme f
 
 ## Referenced Information
 https://plainenglish.io/blog/how-to-use-import-instead-of-require-statements-in-a-node-app-short
+
+This slack article helped me fix badge/license links where I realized I needed to call the functions within the ${}
+https://stackoverflow.com/questions/67013842/trying-to-place-license-badge-within-readme-md-using-node-js-but-getting-error-a
+
