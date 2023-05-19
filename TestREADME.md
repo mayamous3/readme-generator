@@ -5,18 +5,27 @@
   ---
 
   # test
-  ## test
+
 
   ---
 
-  ## Table of Contents
-  1. [Installation Instructions] (#installation)
-  2. [Usage Instructions] (#usage)
-  3. [Testing] (#testing)
-  4. [Contributors] (#contributors)
-  5. [Contact Information] (#contact)
-  6. [License] (#license)
+  # Table of Contents
+  1. [Description] (#description)
+  2. [Installation] (#installation)
+  3. [Usage] (#usage)
+  4. [Testing] (#testing)
+  5. [Contributors] (#contributors)
+  6. [Contact] (#contact)
+  7. [License] (#license)
+ 
   ---
+ 
+  ## Description
+ 
+ tet
+
+ ---
+
   ## Installation
     test
 
@@ -34,6 +43,7 @@
 
   ---
   ## Contact
+  Please contact me directly via e-mail or look me up on github!
   * Github Username:test
   * E-mail Address:  test
   
