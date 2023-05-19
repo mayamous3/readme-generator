@@ -16,9 +16,12 @@ function renderlicenseBadge(license) {
     licenseBadge = "![License Badge](https://img.shields.io/badge/License-Apache_2.0-blue.svg)";
 
   }
+  else {
+    licenseBadge=" "
+  }
   return licenseBadge;
 };
-renderlicenseBadge() ;
+;
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -36,27 +39,22 @@ function renderLicenseLink(license) {
     licenseLink = "https://opensource.org/licenses/Apache-2.0";
 
   }
+  else {
+    licenseLink=" "
+  }
   return licenseLink;
 };
-renderLicenseLink() ;
+;
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-//function renderLicenseSection(license) {
-//  let licenseSection= "";
-
-//  if(license != "None") {
- //   licenseSection += "## License\n"
- //   licenseSection += "License details are available at this link: " + renderLicenseLink
- // }
-//  return licenseSection
-//}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
 
-
+  renderlicenseBadge(data.license);
+  renderLicenseLink(data.license);
   return `
+  
+  ${data.licenseLink}
   ${data.licenseBadge}
   ---
 
@@ -66,22 +64,22 @@ function generateMarkdown(data) {
   ---
 
   ## Table of Contents
-  ### [Installation Instructions] (#installation%20instructions)
-  ### [Usage Instructions] (#usage%20instructions)
-  ### [Test Cases] (#test%20cases)
-  ### [Contributors] (#contributors)
-  ### [Contact Information] (#contact%20information)
-  ### [License] (#license)
+  1. [Installation Instructions] (#installation)
+  2. [Usage Instructions] (#usage)
+  3. [Testing] (#testing)
+  4. [Contributors] (#contributors)
+  5. [Contact Information] (#contact)
+  6. [License] (#license)
   ---
-  ## Installation Instructions
+  ## Installation
     ${data.installation}
 
   ---
-  ## Usage Instructions
+  ## Usage
     ${data.usage}
 
   ---
-  ## Test Cases
+  ## Testing
     ${data.tests}
 
   ---
@@ -89,7 +87,7 @@ function generateMarkdown(data) {
     ${data.contributing}
 
   ---
-  ## Contact Information
+  ## Contact
   * Github Username:${data.username}
   * E-mail Address:  ${data.installation}
   

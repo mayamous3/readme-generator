@@ -27,3 +27,12 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
+
+## Accomplishments
+Used Import/Export in lieu of require() in order to adapt to latest version of node
+Created Markdown.js file in order to get licenses and display final readme
+Used Inquirer to generate prompts and answer selections
+Generated table of contents with links to corresponding sections of the readme file
+
+## Referenced Information
+https://plainenglish.io/blog/how-to-use-import-instead-of-require-statements-in-a-node-app-short
