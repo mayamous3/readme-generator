@@ -10,13 +10,13 @@
   ---
 
   # Table of Contents
-  1. [Description] (#description)
-  2. [Installation] (#installation)
-  3. [Usage] (#usage)
-  4. [Testing] (#testing)
-  5. [Contributors] (#contributors)
-  6. [Contact] (#contact)
-  7. [License] (#license)
+  1. [Description](#description)
+  2. [Installation](#installation)
+  3. [Usage](#usage)
+  4. [Testing](#testing)
+  5. [Contributors](#contributors)
+  6. [Contact](#contact)
+  7. [License](#license)
  
   ---
  
