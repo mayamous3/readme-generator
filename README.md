@@ -34,9 +34,20 @@ Created Markdown.js file in order to get licenses and display final readme
 Used Inquirer to generate prompts and answer selections
 Generated table of contents with links to corresponding sections of the readme file
 
+## Video Demonstration
+![End to End](./artifacts/ReadmeGeneratorDemo.mov)
+
 ## Referenced Information
 https://plainenglish.io/blog/how-to-use-import-instead-of-require-statements-in-a-node-app-short
+
+https://tecadmin.net/node-js-write-to-file-fs-writefile-function/
 
 This slack article helped me fix badge/license links where I realized I needed to call the functions within the ${}
 https://stackoverflow.com/questions/67013842/trying-to-place-license-badge-within-readme-md-using-node-js-but-getting-error-a
 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+
+https://codingbeautydev.com/blog/javascript-unexpected-reserved-word-await/#:~:text=The%20%E2%80%9Cunexpected%20reserved%20word%20(await)%E2%80%9D%20error%20occurs%20in,'%E2%80%9D%20error%20occurring%20in%20JavaScript.
+
+used this article to debug export which no longer matched class demonstrations:
+https://stackoverflow.com/questions/74396736/the-requested-module-does-not-provide-an-export-named-default-javascript
